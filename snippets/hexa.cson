@@ -9,6 +9,12 @@
     "if (condition) { } else { }": 
         "prefix": "ifelse"
         "body": "if (${1:condition}) {\n\t$0\n} else {\n\t\n}"
+    "if (let name = expression) { }": 
+        "prefix": "iflet",
+        "body": "if (let ${1:name} = ${2:expression}) {\n\t$0\n}"
+    "if (let name = expression) { } else { }": 
+        "prefix": "ifletelse",
+        "body": "if (let ${1:name} = ${2:expression}) {\n\t$0\n} else {\n\t\n}"
     "let name = new type(arguments)":
         "prefix": "new"
         "body": "let ${1:name} = new ${2:type}(${3:arguments})$0"
