@@ -10,3 +10,6 @@ ehthumbs.db
 Thumbs.db
 *Thumbs.db
 __MACOSX
+
+# Node.js
+node_modules
