@@ -6,6 +6,10 @@ Adds syntax highlighting and snippets to Hexa files in Atom :atom:
 
 ## Install
 
+<https://atom.io/packages/hexa>
+
+## Install manually
+
 ```sh
 git clone https://github.com/hexalang/hexa-atom-bundle.git
 cd hexa-atom-bundle
